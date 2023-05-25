@@ -1,0 +1,14 @@
+2023-04-29 22:11:07,907 - ebanking - INFO - URL is opened
+2023-04-29 22:11:07,907 [main] INFO ebanking - URL is opened
+2023-04-29 22:11:08,816 - ebanking - INFO - Entered emailAddress
+2023-04-29 22:11:08,816 [main] INFO ebanking - Entered emailAddress
+2023-04-29 22:11:09,245 - ebanking - INFO - Entered password
+2023-04-29 22:11:09,245 [main] INFO ebanking - Entered password
+2023-04-29 22:12:39,152 - ebanking - INFO - URL is opened
+2023-04-29 22:12:39,152 [main] INFO ebanking - URL is opened
+2023-04-29 22:12:40,128 - ebanking - INFO - Entered emailAddress
+2023-04-29 22:12:40,128 [main] INFO ebanking - Entered emailAddress
+2023-04-29 22:12:40,268 - ebanking - INFO - Entered password
+2023-04-29 22:12:40,268 [main] INFO ebanking - Entered password
+2023-04-29 22:12:53,659 - ebanking - INFO - Login test failed
+2023-04-29 22:12:53,659 [main] INFO ebanking - Login test failed

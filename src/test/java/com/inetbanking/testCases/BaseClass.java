@@ -3,6 +3,7 @@ package com.inetbanking.testCases;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -55,7 +56,7 @@ public class BaseClass {
 		     driver=new InternetExplorerDriver();
 	     }
 	     
-	     driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+	     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
 	     driver.get(baseURL);
 	     
 	}
@@ -73,6 +74,7 @@ public class BaseClass {
 		File target=new File(System.getProperty("user.dir")+"/Screenshots/"+ tname +".png");
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot taken");
+		
 	}
 	
 

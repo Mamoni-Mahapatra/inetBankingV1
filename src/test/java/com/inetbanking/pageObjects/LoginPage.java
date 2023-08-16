@@ -10,9 +10,9 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage{
 	
-	WebDriver ldriver;//Constructor
+	WebDriver ldriver;
 	
-	public LoginPage(WebDriver rdriver)
+	public LoginPage(WebDriver rdriver)//Constructor
 	{
 		ldriver=rdriver;
 		PageFactory.initElements(rdriver, this);
